@@ -1,5 +1,5 @@
 import { create } from "domain";
-import { Notification } from "src/application/entities/notification";
+import { Notification } from "../../src/application/entities/notification";
 import { InMemoryNotificationsRepository } from "../../test/repositories/in-memory-notifications-repository";
 import { SendNotification } from "./send-notification";
 
